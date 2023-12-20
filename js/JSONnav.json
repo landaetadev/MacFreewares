@@ -17,6 +17,16 @@
         "linkSeccion": "#idAudio",
         "apps": [
             {
+                "nombreApp": "XLD",
+                "logoApp": "XLD.webp",
+                "linkApp": "https://www.mediahuman.com/lyrics-finder/"
+            },
+            {
+                "nombreApp": "Lyrics Finder",
+                "logoApp": "LyricsFinder.webp",
+                "linkApp": "https://tmkk.undo.jp/xld/index_e.html"
+            },
+            {
                 "nombreApp": "Audacity",
                 "logoApp": "Audacity.webp",
                 "linkApp": "https://www.audacityteam.org/"
