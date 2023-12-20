@@ -17,6 +17,9 @@ fetch('./js/JSONnav.json')
 
 function ReadTable(JSONData) {
 
+    //Ordena alfabeticamente las secciones de apps
+    JSONData.sort((a,b) => a.linkSeccion.localeCompare(b.linkSeccion));
+
 	for (var vJSONi = 0; vJSONi < JSONData.length; vJSONi++) {
 
 		vMakeMenuHTML += '<li>'

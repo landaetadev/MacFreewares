@@ -112,14 +112,14 @@
                 "linkApp": "https://inkscape.org/es/"
             },
             {
-                "nombreApp": "Blender",
-                "logoApp": "Blender.webp",
-                "linkApp": "https://www.blender.org"
-            },
-            {
                 "nombreApp": "Krita",
                 "logoApp": "Krita.webp",
                 "linkApp": "https://krita.org/es/"
+            },
+            {
+                "nombreApp": "Libresprite",
+                "logoApp": "Libresprite.webp",
+                "linkApp": "https://libresprite.github.io/"
             }
         ]
     },
@@ -149,18 +149,6 @@
                 "nombreApp": "LibreOffice",
                 "logoApp": "LibreOffice.webp",
                 "linkApp": "https://es.libreoffice.org"
-            }
-        ]
-    },
-    {
-        "txtSeccion": "Sistema",
-        "icoSeccion": "icoSystem",
-        "linkSeccion": "#idSistema",
-        "apps": [
-            {
-                "nombreApp": "AppCleaner",
-                "logoApp": "AppCleaner.webp",
-                "linkApp": "https://freemacsoft.net/appcleaner/"
             }
         ]
     },
@@ -200,6 +188,18 @@
                 "nombreApp": "IINA",
                 "logoApp": "IINA.webp",
                 "linkApp": "https://iina.io"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Sistema",
+        "icoSeccion": "icoSystem",
+        "linkSeccion": "#idSistema",
+        "apps": [
+            {
+                "nombreApp": "AppCleaner",
+                "logoApp": "AppCleaner.webp",
+                "linkApp": "https://freemacsoft.net/appcleaner/"
             }
         ]
     }
