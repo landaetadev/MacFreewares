@@ -120,6 +120,11 @@
                 "nombreApp": "Libresprite",
                 "logoApp": "Libresprite.webp",
                 "linkApp": "https://libresprite.github.io/"
+            },
+            {
+                "nombreApp": "Upscayl",
+                "logoApp": "Upscayl.webp",
+                "linkApp": "https://www.upscayl.org/"
             }
         ]
     },
