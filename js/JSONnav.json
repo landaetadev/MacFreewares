@@ -1,0 +1,211 @@
+[
+    {
+        "txtSeccion": "Apple",
+        "icoSeccion": "LogoApple",
+        "linkSeccion": "",
+        "apps": []
+    },
+    {
+        "txtSeccion": "Home",
+        "icoSeccion": "icoHome",
+        "linkSeccion": "#",
+        "apps": []
+    },
+    {
+        "txtSeccion": "Audio",
+        "icoSeccion": "icoAudio",
+        "linkSeccion": "#idAudio",
+        "apps": [
+            {
+                "nombreApp": "XLD",
+                "logoApp": "XLD.webp",
+                "linkApp": "https://www.mediahuman.com/lyrics-finder/"
+            },
+            {
+                "nombreApp": "Lyrics Finder",
+                "logoApp": "LyricsFinder.webp",
+                "linkApp": "https://tmkk.undo.jp/xld/index_e.html"
+            },
+            {
+                "nombreApp": "Audacity",
+                "logoApp": "Audacity.webp",
+                "linkApp": "https://www.audacityteam.org/"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Compresores",
+        "icoSeccion": "icoCompresor",
+        "linkSeccion": "#idCompresores",
+        "apps": [
+            {
+                "nombreApp": "Keka",
+                "logoApp": "Keka.webp",
+                "linkApp": "https://www.keka.io/en/"
+            },
+            {
+                "nombreApp": "Unarchiver",
+                "logoApp": "Unarchiver.webp",
+                "linkApp": "https://theunarchiver.com"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Correo",
+        "icoSeccion": "icoCorreo",
+        "linkSeccion": "#idCorreo",
+        "apps": [
+            {
+                "nombreApp": "Thunderbird",
+                "logoApp": "Thunderbird.webp",
+                "linkApp": "https://www.thunderbird.net/"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Descargas",
+        "icoSeccion": "icoDescarga",
+        "linkSeccion": "#idDescargas",
+        "apps": [
+            {
+                "nombreApp": "qBittorrent",
+                "logoApp": "qBittorrent.webp",
+                "linkApp": "https://www.qbittorrent.org"
+            },
+            {
+                "nombreApp": "Transmission",
+                "logoApp": "Transmission.webp",
+                "linkApp": "https://transmissionbt.com"
+            },
+            {
+                "nombreApp": "Jdownloader",
+                "logoApp": "Jdownloader.webp",
+                "linkApp": "https://jdownloader.org"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Diseño-3D",
+        "icoSeccion": "icoDiseno",
+        "linkSeccion": "#idDiseño-3D",
+        "apps": [
+            {
+                "nombreApp": "Blender",
+                "logoApp": "Blender.webp",
+                "linkApp": "https://www.blender.org"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Imagenes",
+        "icoSeccion": "icoImagenes",
+        "linkSeccion": "#idImagenes",
+        "apps": [
+            {
+                "nombreApp": "Gimp",
+                "logoApp": "Gimp.webp",
+                "linkApp": "https://www.gimp.org"
+            },
+            {
+                "nombreApp": "Inkscape",
+                "logoApp": "Inkscape.webp",
+                "linkApp": "https://inkscape.org/es/"
+            },
+            {
+                "nombreApp": "Krita",
+                "logoApp": "Krita.webp",
+                "linkApp": "https://krita.org/es/"
+            },
+            {
+                "nombreApp": "Libresprite",
+                "logoApp": "Libresprite.webp",
+                "linkApp": "https://libresprite.github.io/"
+            },
+            {
+                "nombreApp": "Upscayl",
+                "logoApp": "Upscayl.webp",
+                "linkApp": "https://www.upscayl.org/"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Notas",
+        "icoSeccion": "icoNotes",
+        "linkSeccion": "#idNotas",
+        "apps": [
+            {
+                "nombreApp": "Craft",
+                "logoApp": "Craft.webp",
+                "linkApp": "https://www.craft.do/"
+            },
+            {
+                "nombreApp": "Simplenote",
+                "logoApp": "Simplenote.webp",
+                "linkApp": "https://simplenote.com"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Ofimatica",
+        "icoSeccion": "icoOfimatica",
+        "linkSeccion": "#idOfimatica",
+        "apps": [
+            {
+                "nombreApp": "LibreOffice",
+                "logoApp": "LibreOffice.webp",
+                "linkApp": "https://es.libreoffice.org"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "ToDo",
+        "icoSeccion": "icoToDo",
+        "linkSeccion": "#idToDo",
+        "apps": [
+            {
+                "nombreApp": "Any.Do",
+                "logoApp": "Any.Do.webp",
+                "linkApp": "https://www.any.do"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Video",
+        "icoSeccion": "icoVideo",
+        "linkSeccion": "#idVideo",
+        "apps": [
+            {
+                "nombreApp": "HandBrake",
+                "logoApp": "HandBrake.webp",
+                "linkApp": "https://handbrake.fr/"
+            },
+            {
+                "nombreApp": "Kdenlive",
+                "logoApp": "Kdenlive.webp",
+                "linkApp": "https://kdenlive.org/es/"
+            },
+            {
+                "nombreApp": "VLC",
+                "logoApp": "VLC.webp",
+                "linkApp": "https://www.videolan.org"
+            },
+            {
+                "nombreApp": "IINA",
+                "logoApp": "IINA.webp",
+                "linkApp": "https://iina.io"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "Sistema",
+        "icoSeccion": "icoSystem",
+        "linkSeccion": "#idSistema",
+        "apps": [
+            {
+                "nombreApp": "AppCleaner",
+                "logoApp": "AppCleaner.webp",
+                "linkApp": "https://freemacsoft.net/appcleaner/"
+            }
+        ]
+    }
+]
