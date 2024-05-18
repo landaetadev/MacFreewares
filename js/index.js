@@ -24,7 +24,7 @@ function ReadTable(JSONData) {
 
 		vMakeMenuHTML += '<li>'
         if (vJSONi == 0){
-            vMakeMenuHTML += `<svg class="icoLogo" id="icoLogoApple">`
+            vMakeMenuHTML += `<svg id="icoLogoApple">`
             vMakeMenuHTML +=    `<use href="./assets/images/icons.svg#${JSONData[vJSONi].icoSeccion}">`
             vMakeMenuHTML += `</svg>`
         }else{
@@ -47,7 +47,7 @@ function ReadTable(JSONData) {
             for (var vNumApp = 0; vNumApp < JSONData[vJSONi].apps.length; vNumApp++) {
                 vMakeAppsHTML += `<div class="classApp">`
                 vMakeAppsHTML +=    `<a href="${JSONData[vJSONi].apps[vNumApp].linkApp}" target="_blank">`
-                vMakeAppsHTML +=        `<img src="${vFolderLogosApps}${JSONData[vJSONi].apps[vNumApp].logoApp}" alt="${JSONData[vJSONi].apps[vNumApp].nombreApp}">`
+                vMakeAppsHTML +=        `<img src="${vFolderLogosApps}${JSONData[vJSONi].txtSeccion}/${JSONData[vJSONi].apps[vNumApp].logoApp}" alt="${JSONData[vJSONi].apps[vNumApp].nombreApp}">`
                 vMakeAppsHTML +=        `<h4>${JSONData[vJSONi].apps[vNumApp].nombreApp}</h4>`
                 vMakeAppsHTML +=    `</a>`
                 vMakeAppsHTML += `</div>`

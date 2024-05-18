@@ -30,6 +30,11 @@
                 "nombreApp": "Audacity",
                 "logoApp": "Audacity.webp",
                 "linkApp": "https://www.audacityteam.org/"
+            },
+            {
+                "nombreApp": "Ardour",
+                "logoApp": "Ardour.webp",
+                "linkApp": "https://ardour.org/"
             }
         ]
     },
@@ -85,7 +90,7 @@
         ]
     },
     {
-        "txtSeccion": "Diseño-3D",
+        "txtSeccion": "Diseño 3D",
         "icoSeccion": "icoDiseno",
         "linkSeccion": "#idDiseño-3D",
         "apps": [
@@ -93,6 +98,11 @@
                 "nombreApp": "Blender",
                 "logoApp": "Blender.webp",
                 "linkApp": "https://www.blender.org"
+            },
+            {
+                "nombreApp": "Godot",
+                "logoApp": "Godot.webp",
+                "linkApp": "https://godotengine.org/"
             }
         ]
     },
