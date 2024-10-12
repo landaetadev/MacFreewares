@@ -164,6 +164,11 @@
                 "nombreApp": "LibreOffice",
                 "logoApp": "LibreOffice.webp",
                 "linkApp": "https://es.libreoffice.org"
+            },
+            {
+                "nombreApp": "FreeOffice",
+                "logoApp": "FreeOffice.webp",
+                "linkApp": "https://www.freeoffice.com/es/"
             }
         ]
     },
@@ -203,6 +208,11 @@
                 "nombreApp": "IINA",
                 "logoApp": "IINA.webp",
                 "linkApp": "https://iina.io"
+            },
+            {
+                "nombreApp": "Shotcut",
+                "logoApp": "shotcut.webp",
+                "linkApp": "https://www.shotcut.org/"
             }
         ]
     },
@@ -215,6 +225,18 @@
                 "nombreApp": "AppCleaner",
                 "logoApp": "AppCleaner.webp",
                 "linkApp": "https://freemacsoft.net/appcleaner/"
+            }
+        ]
+    },
+    {
+        "txtSeccion": "VideoGames",
+        "icoSeccion": "icoVideoGames",
+        "linkSeccion": "#idVideoGames",
+        "apps": [
+            {
+                "nombreApp": "OpenEMU",
+                "logoApp": "OpenEMU.webp",
+                "linkApp": "https://openemu.org"
             }
         ]
     }
