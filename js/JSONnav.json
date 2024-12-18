@@ -210,6 +210,12 @@
                 "linkApp": "https://iina.io"
             },
             {
+                "nombreApp": "CapCut",
+                "logoApp": "CapCut.webp",
+                "linkApp": "https://www.capcut.com/"
+                
+            },
+            {
                 "nombreApp": "Shotcut",
                 "logoApp": "shotcut.webp",
                 "linkApp": "https://www.shotcut.org/"
