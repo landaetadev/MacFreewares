@@ -1,5 +1,5 @@
 .classPortada {
-    background: url(/assets/images/backCover.webp) no-repeat center center;
+    background: url(../assets/images/backCoverwebp.webp) no-repeat center center;
     height: 100vh;
     width: calc(100% - var(--vWidthNavBar));
     display: flex;
@@ -7,7 +7,6 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    width: calc(100% - var(--vWidthNavBar));
     margin-left: var(--vWidthNavBar);
     transition:all 500ms ease-in-out;
 }
