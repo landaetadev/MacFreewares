@@ -55,7 +55,7 @@ function ReadTable(JSONData) {
         vMakeAppsHTML += `
         <div class="classApp">
           <a href="${JSONData[vJSONi].apps[vNumApp].linkApp}" target="_blank">
-            <img src="${vFolderLogosApps}${JSONData[vJSONi].txtSeccion}/${JSONData[vJSONi].apps[vNumApp].logoApp}" alt="${JSONData[vJSONi].apps[vNumApp].nombreApp}">
+            <img src="${vFolderLogosApps}${JSONData[vJSONi].txtFolder}/${JSONData[vJSONi].apps[vNumApp].logoApp}" alt="${JSONData[vJSONi].apps[vNumApp].nombreApp}">
             <h4>${JSONData[vJSONi].apps[vNumApp].nombreApp}</h4>
           </a>
         </div>`

@@ -12,6 +12,7 @@
     "apps": []
   },
   {
+    "txtFolder": "Audio",
     "txtSeccion": "Audio",
     "icoSeccion": "icoAudio",
     "linkSeccion": "idAudio",
@@ -43,6 +44,7 @@
     ]
   },
   {
+    "txtFolder": "Compresores",
     "txtSeccion": "Compresores",
     "icoSeccion": "icoCompresor",
     "linkSeccion": "idCompresores",
@@ -62,6 +64,7 @@
     ]
   },
   {
+    "txtFolder": "Correo",
     "txtSeccion": "Correo",
     "icoSeccion": "icoCorreo",
     "linkSeccion": "idCorreo",
@@ -75,6 +78,7 @@
     ]
   },
   {
+    "txtFolder": "Descargas",
     "txtSeccion": "Descargas",
     "icoSeccion": "icoDescarga",
     "linkSeccion": "idDescargas",
@@ -100,6 +104,7 @@
     ]
   },
   {
+    "txtFolder": "Diseno",
     "txtSeccion": "Diseño",
     "icoSeccion": "icoDiseno",
     "linkSeccion": "idDiseño",
@@ -113,6 +118,7 @@
     ]
   },
   {
+    "txtFolder": "Diseno3D",
     "txtSeccion": "Diseño 3D",
     "icoSeccion": "icoDiseno3D",
     "linkSeccion": "idDiseño-3D",
@@ -132,6 +138,7 @@
     ]
   },
   {
+    "txtFolder": "Imagenes",
     "txtSeccion": "Imagenes",
     "icoSeccion": "icoImagenes",
     "linkSeccion": "idImagenes",
@@ -175,6 +182,7 @@
     ]
   },
   {
+    "txtFolder": "Notas",
     "txtSeccion": "Notas",
     "icoSeccion": "icoNotes",
     "linkSeccion": "idNotas",
@@ -194,6 +202,7 @@
     ]
   },
   {
+    "txtFolder": "Ofimatica",
     "txtSeccion": "Ofimatica",
     "icoSeccion": "icoOfimatica",
     "linkSeccion": "idOfimatica",
@@ -213,6 +222,7 @@
     ]
   },
   {
+    "txtFolder": "ToDo",
     "txtSeccion": "ToDo",
     "icoSeccion": "icoToDo",
     "linkSeccion": "idToDo",
@@ -226,6 +236,7 @@
     ]
   },
   {
+    "txtFolder": "Sistema",
     "txtSeccion": "Sistema",
     "icoSeccion": "icoSystem",
     "linkSeccion": "idSistema",
@@ -245,6 +256,7 @@
     ]
   },
   {
+    "txtFolder": "VideoEditor",
     "txtSeccion": "Video Editor",
     "icoSeccion": "icoVideoEdit",
     "linkSeccion": "idVideo",
@@ -282,6 +294,7 @@
     ]
   },
   {
+    "txtFolder": "VideoPlayers",
     "txtSeccion": "Video Players",
     "icoSeccion": "icoVideoPlayer",
     "linkSeccion": "idVideoPlayers",
@@ -301,6 +314,7 @@
     ]
   },
   {
+    "txtFolder": "VideoGames",
     "txtSeccion": "Video Games",
     "icoSeccion": "icoVideoGames",
     "linkSeccion": "idVideoGames",
@@ -314,6 +328,7 @@
     ]
   },
   {
+    "txtFolder": "VirtualMachines",
     "txtSeccion": "Virtual Machines",
     "icoSeccion": "icoVirtualmachines",
     "linkSeccion": "idVirtualmachines",
