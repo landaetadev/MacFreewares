@@ -9,12 +9,18 @@ const vFolderLogosApps = './assets/images/apps/';
 const vFileIcons = './assets/images/icons.svg#';
 var vMakeAppsHTML = ``;
 
-//SHOW APPS
-fetch('/JSONnav.json')
-.then(response => response.json())
-.then(JSONData => {
-	ReadTable(JSONData);
-});
+// Carga JSON compatible con GitHub Pages y localhost
+fetch(`${import.meta.env.BASE_URL}JSONnav.json`)
+  .then(response => {
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    return response.json();
+  })
+  .then(JSONData => {
+    ReadTable(JSONData);
+  })
+  .catch(err => {
+    console.error('Error cargando JSONnav.json:', err);
+  });
 
 function ReadTable(JSONData) {
 
