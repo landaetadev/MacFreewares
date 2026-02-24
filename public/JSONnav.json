@@ -290,6 +290,12 @@
         "logoApp": "shotcut.webp",
         "linkApp": "https://www.shotcut.org/",
         "descripApp": "Editor de vídeo gratuito y multiplataforma."
+      },
+      {
+        "nombreApp": "Avidemux",
+        "logoApp": "Avidemux.webp",
+        "linkApp": "https://avidemux.sourceforge.net/",
+        "descripApp": "Editor de vídeo gratuito y multiplataforma."
       }
     ]
   },
