@@ -1,4 +1,4 @@
-.classSection {
+.cSection {
   font-family: var(--varFontStyle);
   background-color: var(--vbackGroundColor);
   min-height: 100vh;
@@ -9,12 +9,12 @@
   transition:all 500ms ease-in-out;
 }
 
-.classSectionWidth {
+.cSectionWidth {
   width: calc(100% - 160px);
   margin-left: 160px;
 }
 
-.classSectionApps {
+.cSectionApps {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +26,7 @@
     margin-bottom: 1rem;
   }
 
-  & .classApps {
+  & .cApps {
     width: 100%;
     max-width: 1000px;
     display: flex;

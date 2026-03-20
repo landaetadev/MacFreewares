@@ -19,25 +19,25 @@
     "apps": [
       {
         "nombreApp": "XLD",
-        "logoApp": "XLD.webp",
+        "logoApp": "XLD",
         "linkApp": "https://www.mediahuman.com/lyrics-finder/",
         "descripApp": ""
       },
       {
         "nombreApp": "Lyrics Finder",
-        "logoApp": "LyricsFinder.webp",
+        "logoApp": "LyricsFinder",
         "linkApp": "https://tmkk.undo.jp/xld/index_e.html",
         "descripApp": ""
       },
       {
         "nombreApp": "Audacity",
-        "logoApp": "Audacity.webp",
+        "logoApp": "Audacity",
         "linkApp": "https://www.audacityteam.org/",
         "descripApp": "Editor de audio gratuito para grabar y editar sonidos."
       },
       {
         "nombreApp": "Ardour",
-        "logoApp": "Ardour.webp",
+        "logoApp": "Ardour",
         "linkApp": "https://ardour.org/",
         "descripApp": ""
       }
@@ -51,13 +51,13 @@
     "apps": [
       {
         "nombreApp": "Keka",
-        "logoApp": "Keka.webp",
+        "logoApp": "Keka",
         "linkApp": "https://www.keka.io/en/",
         "descripApp": "Compresor y descompresor gratuito de archivos para macOS."
       },
       {
         "nombreApp": "Unarchiver",
-        "logoApp": "Unarchiver.webp",
+        "logoApp": "Unarchiver",
         "linkApp": "https://theunarchiver.com",
         "descripApp": "Herramienta para descomprimir una amplia variedad de formatos de archivo."
       }
@@ -71,7 +71,7 @@
     "apps": [
       {
         "nombreApp": "Thunderbird",
-        "logoApp": "Thunderbird.webp",
+        "logoApp": "Thunderbird",
         "linkApp": "https://www.thunderbird.net/",
         "descripApp": "Cliente de correo electrónico gratuito y de código abierto."
       }
@@ -85,19 +85,19 @@
     "apps": [
       {
         "nombreApp": "qBittorrent",
-        "logoApp": "qBittorrent.webp",
+        "logoApp": "qBittorrent",
         "linkApp": "https://www.qbittorrent.org",
         "descripApp": ""
       },
       {
         "nombreApp": "Transmission",
-        "logoApp": "Transmission.webp",
+        "logoApp": "Transmission",
         "linkApp": "https://transmissionbt.com",
         "descripApp": "Cliente BitTorrent rápido y sin publicidad para macOS."
       },
       {
         "nombreApp": "Jdownloader",
-        "logoApp": "Jdownloader.webp",
+        "logoApp": "Jdownloader",
         "linkApp": "https://jdownloader.org",
         "descripApp": ""
       }
@@ -111,7 +111,7 @@
     "apps": [
       {
         "nombreApp": "Affinity",
-        "logoApp": "Affinity.webp",
+        "logoApp": "Affinity",
         "linkApp": "https://www.affinity.studio/",
         "descripApp": "Software de diseño grafico"
       }
@@ -125,13 +125,13 @@
     "apps": [
       {
         "nombreApp": "Blender",
-        "logoApp": "Blender.webp",
+        "logoApp": "Blender",
         "linkApp": "https://www.blender.org",
         "descripApp": "Software gratuito de modelado y animación 3D."
       },
       {
         "nombreApp": "Godot",
-        "logoApp": "Godot.webp",
+        "logoApp": "Godot",
         "linkApp": "https://godotengine.org/",
         "descripApp": "Motor de juegos gratuito, de código abierto y multiplataforma, publicado bajo la licencia MIT, diseñado para crear juegos en 2D y 3D."
       }
@@ -145,37 +145,37 @@
     "apps": [
       {
         "nombreApp": "Gimp",
-        "logoApp": "Gimp.webp",
+        "logoApp": "Gimp",
         "linkApp": "https://www.gimp.org",
         "descripApp": "Editor de imágenes gratuito alternativo a Photoshop."
       },
       {
         "nombreApp": "Inkscape",
-        "logoApp": "Inkscape.webp",
+        "logoApp": "Inkscape",
         "linkApp": "https://inkscape.org/es/",
         "descripApp": "Editor de gráficos vectoriales gratuito similar a Illustrator."
       },
       {
         "nombreApp": "Krita",
-        "logoApp": "Krita.webp",
+        "logoApp": "Krita",
         "linkApp": "https://krita.org/es/",
         "descripApp": ""
       },
       {
         "nombreApp": "Libresprite",
-        "logoApp": "Libresprite.webp",
+        "logoApp": "Libresprite",
         "linkApp": "https://libresprite.github.io/",
         "descripApp": ""
       },
       {
         "nombreApp": "Darktable",
-        "logoApp": "Darktable.webp",
+        "logoApp": "Darktable",
         "linkApp": "https://www.darktable.org/",
         "descripApp": "Editor de imágenes RAW alternativo gratuito a Lightroom."
       },
       {
         "nombreApp": "Upscayl",
-        "logoApp": "Upscayl.webp",
+        "logoApp": "Upscayl",
         "linkApp": "https://www.upscayl.org/",
         "descripApp": ""
       }
@@ -189,13 +189,13 @@
     "apps": [
       {
         "nombreApp": "Craft",
-        "logoApp": "Craft.webp",
+        "logoApp": "Craft",
         "linkApp": "https://www.craft.do/",
         "descripApp": ""
       },
       {
         "nombreApp": "Simplenote",
-        "logoApp": "Simplenote.webp",
+        "logoApp": "Simplenote",
         "linkApp": "https://simplenote.com",
         "descripApp": ""
       }
@@ -209,13 +209,13 @@
     "apps": [
       {
         "nombreApp": "LibreOffice",
-        "logoApp": "LibreOffice.webp",
+        "logoApp": "LibreOffice",
         "linkApp": "https://es.libreoffice.org",
         "descripApp": "LibreOffice es uno de los proyectos más amigables y de más rápido crecimiento en el mundo del software de código abierto."
       },
       {
         "nombreApp": "FreeOffice",
-        "logoApp": "FreeOffice.webp",
+        "logoApp": "FreeOffice",
         "linkApp": "https://www.freeoffice.com/es/",
         "descripApp": "Suite ofimática que incluye un procesador de textos, una aplicación de hojas de cálculo y un programa de presentaciones, todos ellos totalmente compatibles con sus aplicaciones equivalentes de Microsoft Office"
       }
@@ -229,7 +229,7 @@
     "apps": [
       {
         "nombreApp": "Any.Do",
-        "logoApp": "Any.Do.webp",
+        "logoApp": "Any.Do",
         "linkApp": "https://www.any.do",
         "descripApp": ""
       }
@@ -243,13 +243,13 @@
     "apps": [
       {
         "nombreApp": "AppCleaner",
-        "logoApp": "AppCleaner.webp",
+        "logoApp": "AppCleaner",
         "linkApp": "https://freemacsoft.net/appcleaner/",
         "descripApp": "Elimina aplicaciones y sus archivos asociados de forma completa."
       },
       {
         "nombreApp": "OnyX",
-        "logoApp": "Onyx.png",
+        "logoApp": "Onyx",
         "linkApp": "https://www.titanium-software.fr/en/onyx.html",
         "descripApp": "Utilidad de mantenimiento y optimización del sistema macOS."
       }
@@ -263,37 +263,37 @@
     "apps": [
       {
         "nombreApp": "DaVinci Resolve",
-        "logoApp": "DaVinciResolve.webp",
+        "logoApp": "DaVinciResolve",
         "linkApp": "https://www.blackmagicdesign.com/es/products/davinciresolve/",
         "descripApp": "Editor profesional de vídeo con versión gratuita completa."
       },
       {
         "nombreApp": "HandBrake",
-        "logoApp": "HandBrake.webp",
+        "logoApp": "HandBrake",
         "linkApp": "https://handbrake.fr/",
         "descripApp": "Conversor de vídeo gratuito y de código abierto."
       },
       {
         "nombreApp": "Kdenlive",
-        "logoApp": "Kdenlive.webp",
+        "logoApp": "Kdenlive",
         "linkApp": "https://kdenlive.org/es/",
         "descripApp": ""
       },
       {
         "nombreApp": "CapCut",
-        "logoApp": "CapCut.webp",
+        "logoApp": "CapCut",
         "linkApp": "https://www.capcut.com/",
         "descripApp": ""
       },
       {
         "nombreApp": "Shotcut",
-        "logoApp": "shotcut.webp",
+        "logoApp": "shotcut",
         "linkApp": "https://www.shotcut.org/",
         "descripApp": "Editor de vídeo gratuito y multiplataforma."
       },
       {
         "nombreApp": "Avidemux",
-        "logoApp": "Avidemux.webp",
+        "logoApp": "Avidemux",
         "linkApp": "https://avidemux.sourceforge.net/",
         "descripApp": "Editor de vídeo gratuito."
       }
@@ -307,13 +307,13 @@
     "apps": [
       {
         "nombreApp": "VLC",
-        "logoApp": "VLC.webp",
+        "logoApp": "VLC",
         "linkApp": "https://www.videolan.org",
         "descripApp": "Reproductor multimedia gratuito compatible con casi todos los formatos."
       },
       {
         "nombreApp": "IINA",
-        "logoApp": "IINA.webp",
+        "logoApp": "IINA",
         "linkApp": "https://iina.io",
         "descripApp": "Reproductor multimedia moderno compatible con la mayoría de formatos de vídeo."
       }
@@ -327,7 +327,7 @@
     "apps": [
       {
         "nombreApp": "OpenEMU",
-        "logoApp": "OpenEMU.webp",
+        "logoApp": "OpenEMU",
         "linkApp": "https://openemu.org",
         "descripApp": ""
       }
@@ -341,9 +341,15 @@
     "apps": [
       {
         "nombreApp": "UTM",
-        "logoApp": "UTM.webp",
+        "logoApp": "UTM",
         "linkApp": "https://mac.getutm.app/",
         "descripApp": ""
+      },
+      {
+        "nombreApp": "VirtualBox",
+        "logoApp": "VirtualBox",
+        "linkApp": "https://www.virtualbox.org/",
+        "descripApp": "Aplicación de virtualización multiplataforma. Permite ejecutar varios sistemas operativos dentro de varias máquinas virtuales (VM) simultáneamente. Por ejemplo, puedes ejecutar Windows y Linux en tu Mac."
       }
     ]
   }

@@ -1,13 +1,13 @@
 const vNavBar = document.querySelector("nav");
-const vClassPortada = document.querySelector('.classPortada');
-const vClassSection = document.querySelector('.classSection');
+const vPortada = document.querySelector('.cPortada');
 
-const vShowMenu = document.querySelector(".classShowMenu");
-var vMakeMenuHTML = ``;
-const vShowApps = document.querySelector(".classSection");
+const vShowMenu = document.querySelector(".cShowMenu");
+let vMakeMenuHTML = ``;
+
+const vShowApps = document.querySelector(".cSection");
 const vFolderLogosApps = './assets/images/apps/';
 const vFileIcons = './assets/images/icons.svg#';
-var vMakeAppsHTML = ``;
+let vMakeAppsHTML = ``;
 
 // Carga JSON compatible con GitHub Pages y localhost
 fetch(`${import.meta.env.BASE_URL}JSONnav.json`)
@@ -29,28 +29,28 @@ function ReadTable(JSONData) {
   
   JSONData.forEach((vJSON, index) => {
     vMakeMenuHTML += '<li>'
-    if (index == 0){
+    if (index == 0) {
       vMakeMenuHTML += `
-      <svg id="icoLogoApple">
-        <use href="${vFileIcons}${vJSON.icoSeccion}">
-      </svg>
-      `
-    }else{
-      vMakeMenuHTML += `
-      <a href="#${vJSON.linkSeccion}" title="${vJSON.txtSeccion}">
-        <svg class="icoLogo">
+        <svg id="icoLogoApple">
           <use href="${vFileIcons}${vJSON.icoSeccion}">
-        </svg> ${vJSON.txtSeccion}
-      </a>
+        </svg>
+      `
+    } else {
+      vMakeMenuHTML += `
+        <a href="#${vJSON.linkSeccion}" title="${vJSON.txtSeccion}">
+          <svg class="icoLogo">
+            <use href="${vFileIcons}${vJSON.icoSeccion}">
+          </svg> ${vJSON.txtSeccion}
+        </a>
       `
     }
     vMakeMenuHTML += '</li>'
 
     if (vJSON.apps.length > 0) {
       vMakeAppsHTML += `
-      <div class="classSectionApps">
-        <h3 id="${vJSON.linkSeccion}">${vJSON.txtSeccion}</h3>
-        <div class="classApps">
+        <div class="cSectionApps">
+          <h3 id="${vJSON.linkSeccion}">${vJSON.txtSeccion}</h3>
+        <div class="cApps">
       `
 
       //Ordena alfabeticamente las apps de cada seccion del JSON
@@ -58,16 +58,18 @@ function ReadTable(JSONData) {
 
       vJSON.apps.forEach(vApp => {
         vMakeAppsHTML += `
-          <div class="classApp">
-            <a href="${vApp.linkApp}" target="_blank">
-              <img src="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}" alt="${vApp.nombreApp}">
-              <h4>${vApp.nombreApp}</h4>
-            </a>
-          </div>`;
+          <a href="${vApp.linkApp}" target="_blank">
+            <picture class="classCardImage">
+              <source srcset="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}.avif"></source>
+              <img src="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}.webp" alt="${vApp.nombreApp}">
+            </picture>
+            <h4>${vApp.nombreApp}</h4>
+          </a>
+        `;
       });
       vMakeAppsHTML += `
+          </div>
         </div>
-      </div>
       `
     }
     
@@ -79,14 +81,14 @@ function ReadTable(JSONData) {
   const vNavBarText = document.querySelectorAll('nav ul li a');
   const vIdIconApple = document.querySelector('#icoLogoApple');
   vIdIconApple.addEventListener('click', () => {
-    vNavBar.classList.toggle('classNavWidth');
+    vNavBar.classList.toggle('cNavWidth');
     
     vNavBarText.forEach(e => {
-      e.classList.toggle('classNavTextSize');
+      e.classList.toggle('cNavTextSize');
     });
 
-    vClassPortada.classList.toggle('classPortadaWidth');
-    vClassSection.classList.toggle('classSectionWidth');
+    vPortada.classList.toggle('cPortadaWidth');
+    vShowApps.classList.toggle('cSectionWidth');
   
   });
 }
