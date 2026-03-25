@@ -1,7 +1,7 @@
 footer {
   font-family: var(--varFontStyle);
   width: 100%;
-  min-height: 4rem;
+  min-height: 6rem;
   padding: .5rem;
   background-color: black;
   display: flex;
@@ -16,9 +16,16 @@ footer {
     font-size: 20px;
     line-height: 1.5rem;
     color: white;
+    display: flex;
+    align-items: center;
 
     & a:link, a:visited, a:hover {
       color: white;
+    }
+
+    & img {
+      width: 2rem;
+      height: 2rem;
     }
   }
 

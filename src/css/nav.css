@@ -30,7 +30,8 @@ nav {
         & .icoLogo {
           width: 30px;
           height: 30px;
-          fill: black;
+          color: black;
+          stroke-width: 1;
           margin-right: .5rem;
           border-width: 5px;
         }
@@ -45,7 +46,6 @@ nav {
 
 .cNavTextSize {
   font-size: 1rem;
-
 }
 
 #icoLogoApple {

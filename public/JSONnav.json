@@ -236,6 +236,20 @@
     ]
   },
   {
+    "txtFolder": "Tools",
+    "txtSeccion": "Tools",
+    "icoSeccion": "icoTools",
+    "linkSeccion": "idTools",
+    "apps": [
+      {
+        "nombreApp": "Pika",
+        "logoApp": "Pika",
+        "linkApp": "https://superhighfives.com/pika",
+        "descripApp": "Pika facilita la búsqueda rápida de colores en pantalla."
+      }
+    ]
+  },  
+  {
     "txtFolder": "Sistema",
     "txtSeccion": "Sistema",
     "icoSeccion": "icoSystem",

@@ -20,11 +20,28 @@
   align-items: center;
   padding: 2rem 0;
 
-  & h3 {
-    color: #FFFFFF;
-    font-size: 32px;
-    margin-bottom: 1rem;
+  & .cSectionTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+
+    & svg {
+      width: 3.5rem;
+      height: 3.5rem;
+      color: white;
+      stroke-width: 2;
+      margin-right: 1rem;
+    }
+
+    & h3 {
+      color: white;
+      font-size: 32px;
+    }
   }
+
+  
 
   & .cApps {
     width: 100%;

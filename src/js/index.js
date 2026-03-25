@@ -49,7 +49,12 @@ function ReadTable(JSONData) {
     if (vJSON.apps.length > 0) {
       vMakeAppsHTML += `
         <div class="cSectionApps">
-          <h3 id="${vJSON.linkSeccion}">${vJSON.txtSeccion}</h3>
+          <div class="cSectionTitle">
+            <svg>
+              <use href="${vFileIcons}${vJSON.icoSeccion}">
+            </svg>
+            <h3 id="${vJSON.linkSeccion}">${vJSON.txtSeccion}</h3>
+          </div>
         <div class="cApps">
       `
 
@@ -60,7 +65,7 @@ function ReadTable(JSONData) {
         vMakeAppsHTML += `
           <a href="${vApp.linkApp}" target="_blank">
             <picture class="classCardImage">
-              <source srcset="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}.avif"></source>
+              <source srcset="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}.avif" type="image/avif"></source>
               <img src="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}.webp" alt="${vApp.nombreApp}">
             </picture>
             <h4>${vApp.nombreApp}</h4>
