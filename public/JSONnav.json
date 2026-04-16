@@ -182,6 +182,26 @@
     ]
   },
   {
+    "txtFolder": "Musica",
+    "txtSeccion": "Música",
+    "icoSeccion": "icoMusica",
+    "linkSeccion": "idMúsica",
+    "apps": [
+      {
+        "nombreApp": "MuseScore",
+        "logoApp": "MuseScore",
+        "linkApp": "ttps://musescore.org/en",
+        "descripApp": "Editor de partituras musicales gratuito y de código abierto."
+      },
+      {
+        "nombreApp": "MusicBrainz",
+        "logoApp": "MusicBrainz",
+        "linkApp": "https://musicbrainz.org",
+        "descripApp": "Base de datos colaborativa de información musical."
+      }
+    ]
+  },
+  {
     "txtFolder": "Notas",
     "txtSeccion": "Notas",
     "icoSeccion": "icoNotes",
@@ -218,6 +238,20 @@
         "logoApp": "FreeOffice",
         "linkApp": "https://www.freeoffice.com/es/",
         "descripApp": "Suite ofimática que incluye un procesador de textos, una aplicación de hojas de cálculo y un programa de presentaciones, todos ellos totalmente compatibles con sus aplicaciones equivalentes de Microsoft Office"
+      }
+    ]
+  },
+  {
+    "txtFolder": "Passwords",
+    "txtSeccion": "Passwords",
+    "icoSeccion": "icoPasswords",
+    "linkSeccion": "idPasswords",
+    "apps": [
+      {
+        "nombreApp": "KeePassXC",
+        "logoApp": "KeePassXC",
+        "linkApp": "https://keepassxc.org/",
+        "descripApp": "KeePassXC almacena tus contraseñas de forma segura y las rellene automáticamente en tus aplicaciones favoritas."
       }
     ]
   },
@@ -350,8 +384,8 @@
   {
     "txtFolder": "VirtualMachines",
     "txtSeccion": "Virtual Machines",
-    "icoSeccion": "icoVirtualmachines",
-    "linkSeccion": "idVirtualmachines",
+    "icoSeccion": "icoVirtualMachines",
+    "linkSeccion": "idVirtualMachines",
     "apps": [
       {
         "nombreApp": "UTM",

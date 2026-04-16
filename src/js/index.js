@@ -11,6 +11,7 @@ let vMakeAppsHTML = ``;
 
 // Carga JSON compatible con GitHub Pages y localhost
 fetch(`${import.meta.env.BASE_URL}JSONnav.json`)
+// fetch(`./JSONnav.json`)
   .then(response => {
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     return response.json();
@@ -18,9 +19,6 @@ fetch(`${import.meta.env.BASE_URL}JSONnav.json`)
   .then(JSONData => {
     ReadTable(JSONData);
   })
-  .catch(err => {
-    console.error('Error cargando JSONnav.json:', err);
-  });
 
 function ReadTable(JSONData) {
 
@@ -48,12 +46,12 @@ function ReadTable(JSONData) {
 
     if (vJSON.apps.length > 0) {
       vMakeAppsHTML += `
-        <div class="cSectionApps">
+        <div class="cSectionApps" id="${vJSON.linkSeccion}">
           <div class="cSectionTitle">
             <svg>
               <use href="${vFileIcons}${vJSON.icoSeccion}">
             </svg>
-            <h3 id="${vJSON.linkSeccion}">${vJSON.txtSeccion}</h3>
+            <h3>${vJSON.txtSeccion}</h3>
           </div>
         <div class="cApps">
       `
