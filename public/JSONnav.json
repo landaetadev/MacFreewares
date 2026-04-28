@@ -60,6 +60,12 @@
         "logoApp": "Unarchiver",
         "linkApp": "https://theunarchiver.com",
         "descripApp": "Herramienta para descomprimir una amplia variedad de formatos de archivo."
+      },
+      {
+        "nombreApp": "Peazip",
+        "logoApp": "Peazip",
+        "linkApp": "https://peazip.github.io/",
+        "descripApp": "Herramienta para comprimir y descomprimir archivos."
       }
     ]
   },
@@ -134,6 +140,12 @@
         "logoApp": "Godot",
         "linkApp": "https://godotengine.org/",
         "descripApp": "Motor de juegos gratuito, de código abierto y multiplataforma, publicado bajo la licencia MIT, diseñado para crear juegos en 2D y 3D."
+      },
+      {
+        "nombreApp": "FreeCAD",
+        "logoApp": "FreeCAD",
+        "linkApp": "https://www.freecad.org/",
+        "descripApp": "Software de modelado 3D paramétrico gratuito y de código abierto."
       }
     ]
   },

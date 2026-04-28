@@ -11,7 +11,6 @@ let vMakeAppsHTML = ``;
 
 // Carga JSON compatible con GitHub Pages y localhost
 fetch(`${import.meta.env.BASE_URL}JSONnav.json`)
-// fetch(`./JSONnav.json`)
   .then(response => {
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     return response.json();
