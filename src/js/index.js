@@ -6,7 +6,7 @@ let vMakeMenuHTML = ``;
 
 const vShowApps = document.querySelector(".cSection");
 const vFolderLogosApps = './assets/images/apps/';
-const vFileIcons = './assets/images/icons.svg#';
+const vDirIcons = "./assets/images/icons/NavMenu.svg#";
 let vMakeAppsHTML = ``;
 
 // Carga JSON compatible con GitHub Pages y localhost
@@ -27,16 +27,16 @@ function ReadTable(JSONData) {
   JSONData.forEach((vJSON, index) => {
     vMakeMenuHTML += '<li>'
     if (index == 0) {
-      vMakeMenuHTML += `
+      vMakeMenuHTML += /* HTML */ `
         <svg id="icoLogoApple">
-          <use href="${vFileIcons}${vJSON.icoSeccion}">
+          <use href="${vDirIcons}${vJSON.icoSeccion}">
         </svg>
       `
     } else {
-      vMakeMenuHTML += `
+      vMakeMenuHTML += /* HTML */ `
         <a href="#${vJSON.linkSeccion}" title="${vJSON.txtSeccion}">
           <svg class="icoLogo">
-            <use href="${vFileIcons}${vJSON.icoSeccion}">
+            <use href="${vDirIcons}${vJSON.icoSeccion}">
           </svg> ${vJSON.txtSeccion}
         </a>
       `
@@ -44,11 +44,11 @@ function ReadTable(JSONData) {
     vMakeMenuHTML += '</li>'
 
     if (vJSON.apps.length > 0) {
-      vMakeAppsHTML += `
+      vMakeAppsHTML += /* HTML */ `
         <div class="cSectionApps" id="${vJSON.linkSeccion}">
           <div class="cSectionTitle">
             <svg>
-              <use href="${vFileIcons}${vJSON.icoSeccion}">
+              <use href="${vDirIcons}${vJSON.icoSeccion}">
             </svg>
             <h3>${vJSON.txtSeccion}</h3>
           </div>
@@ -59,17 +59,17 @@ function ReadTable(JSONData) {
       vJSON.apps.sort((a,b) => a.nombreApp.localeCompare(b.nombreApp));
 
       vJSON.apps.forEach(vApp => {
-        vMakeAppsHTML += `
+        vMakeAppsHTML += /* HTML */ `
           <a href="${vApp.linkApp}" target="_blank">
             <picture class="classCardImage">
-              <source srcset="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}.avif" type="image/avif"></source>
+              <source srcset="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}.avif" type="image/avif" />
               <img src="${vFolderLogosApps}${vJSON.txtFolder}/${vApp.logoApp}.webp" alt="${vApp.nombreApp}">
             </picture>
             <h4>${vApp.nombreApp}</h4>
           </a>
         `;
       });
-      vMakeAppsHTML += `
+      vMakeAppsHTML += /* HTML */ `
           </div>
         </div>
       `

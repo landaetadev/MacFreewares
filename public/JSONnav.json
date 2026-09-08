@@ -18,15 +18,21 @@
     "linkSeccion": "idAudio",
     "apps": [
       {
+        "nombreApp": "Foobar2000",
+        "logoApp": "Foobar2000",
+        "linkApp": "https://www.foobar2000.org/",
+        "descripApp": ""
+      },
+      {
         "nombreApp": "XLD",
         "logoApp": "XLD",
-        "linkApp": "https://www.mediahuman.com/lyrics-finder/",
+        "linkApp": "https://tmkk.undo.jp/xld/index_e.html",
         "descripApp": ""
       },
       {
         "nombreApp": "Lyrics Finder",
         "logoApp": "LyricsFinder",
-        "linkApp": "https://tmkk.undo.jp/xld/index_e.html",
+        "linkApp": "https://www.mediahuman.com/lyrics-finder/",
         "descripApp": ""
       },
       {
@@ -202,7 +208,7 @@
       {
         "nombreApp": "MuseScore",
         "logoApp": "MuseScore",
-        "linkApp": "ttps://musescore.org/en",
+        "linkApp": "https://musescore.org/en",
         "descripApp": "Editor de partituras musicales gratuito y de código abierto."
       },
       {
