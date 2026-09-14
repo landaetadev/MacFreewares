@@ -1,6 +1,7 @@
 :root {
   --varFontStyle: 'open sans', sans-serif;
-  --vWidthNavBar: 50px;
+  --vIconSize: 2rem;
+  --vWidthNavBar: 3rem;
   --vBackGroundColor: #4A4A4A;
   --vMaxWidth: 1200px;
 }
