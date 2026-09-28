@@ -196,6 +196,12 @@
         "logoApp": "Upscayl",
         "linkApp": "https://www.upscayl.org/",
         "descripApp": ""
+      },
+      {
+        "nombreApp": "Compositor",
+        "logoApp": "Compositor",
+        "linkApp": "https://compositorapp.com/",
+        "descripApp": "Muy buena alternativa a Photoshop y Pixelmator."
       }
     ]
   },
