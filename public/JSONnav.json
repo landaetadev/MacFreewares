@@ -261,7 +261,13 @@
         "nombreApp": "FreeOffice",
         "logoApp": "FreeOffice",
         "linkApp": "https://www.freeoffice.com/es/",
-        "descripApp": "Suite ofimática que incluye un procesador de textos, una aplicación de hojas de cálculo y un programa de presentaciones, todos ellos totalmente compatibles con sus aplicaciones equivalentes de Microsoft Office"
+        "descripApp": "Suite ofimática que incluye un procesador de textos, una aplicación de hojas de cálculo y un programa de presentaciones, todos ellos totalmente compatibles con sus aplicaciones equivalentes de Microsoft Office."
+      },
+      {
+        "nombreApp": "OnlyOffice",
+        "logoApp": "OnlyOffice",
+        "linkApp": "https://www.onlyoffice.com/",
+        "descripApp": "Suite ofimática que permite crear y editar documentos de texto, hojas de cálculo y presentaciones, con compatibilidad con los formatos de Microsoft Office."
       }
     ]
   },
