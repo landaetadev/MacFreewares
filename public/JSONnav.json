@@ -12,6 +12,56 @@
     "apps": []
   },
   {
+    "txtFolder": "Artcraft",
+    "txtSeccion": "Artcraft",
+    "icoSeccion": "icoArtcraft",
+    "linkSeccion": "idArtcraft",
+    "apps": [
+      {
+        "nombreApp": "PhotoCraft",
+        "logoApp": "PhotoCraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "Vectorcraft",
+        "logoApp": "Vectorcraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "Designcraft",
+        "logoApp": "Designcraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "Effectcraft",
+        "logoApp": "Effectcraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "Filmcraft",
+        "logoApp": "Filmcraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "LightCraft",
+        "logoApp": "LightCraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "Pdfcraft",
+        "logoApp": "Pdfcraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      }
+    ]
+  },
+  {
     "txtFolder": "Audio",
     "txtSeccion": "Audio",
     "icoSeccion": "icoAudio",
@@ -330,6 +380,12 @@
         "logoApp": "Onyx",
         "linkApp": "https://www.titanium-software.fr/en/onyx.html",
         "descripApp": "Utilidad de mantenimiento y optimización del sistema macOS."
+      },
+      {
+        "nombreApp": "Easy Complete",
+        "logoApp": "EasyComplete",
+        "linkApp": "https://easy-complete.emmmm.dev/",
+        "descripApp": "Utilidad para autocompletar comandos en el terminal."
       }
     ]
   },
