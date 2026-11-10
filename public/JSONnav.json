@@ -18,32 +18,26 @@
     "linkSeccion": "idArtcraft",
     "apps": [
       {
-        "nombreApp": "PhotoCraft",
-        "logoApp": "PhotoCraft",
+        "nombreApp": "DesignCraft",
+        "logoApp": "DesignCraft",
         "linkApp": "https://getartcraft.com/apps",
         "descripApp": ""
       },
       {
-        "nombreApp": "Vectorcraft",
-        "logoApp": "Vectorcraft",
+        "nombreApp": "EffectCraft",
+        "logoApp": "EffectCraft",
         "linkApp": "https://getartcraft.com/apps",
         "descripApp": ""
       },
       {
-        "nombreApp": "Designcraft",
-        "logoApp": "Designcraft",
+        "nombreApp": "FigCraft",
+        "logoApp": "FigCraft",
         "linkApp": "https://getartcraft.com/apps",
         "descripApp": ""
       },
       {
-        "nombreApp": "Effectcraft",
-        "logoApp": "Effectcraft",
-        "linkApp": "https://getartcraft.com/apps",
-        "descripApp": ""
-      },
-      {
-        "nombreApp": "Filmcraft",
-        "logoApp": "Filmcraft",
+        "nombreApp": "FilmCraft",
+        "logoApp": "FilmCraft",
         "linkApp": "https://getartcraft.com/apps",
         "descripApp": ""
       },
@@ -54,8 +48,38 @@
         "descripApp": ""
       },
       {
-        "nombreApp": "Pdfcraft",
-        "logoApp": "Pdfcraft",
+        "nombreApp": "MaterialCraft",
+        "logoApp": "MaterialCraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "PdfCraft",
+        "logoApp": "PdfCraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "PhotoCraft",
+        "logoApp": "PhotoCraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "SoundCraft",
+        "logoApp": "SoundCraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },
+      {
+        "nombreApp": "TextureCraft",
+        "logoApp": "TextureCraft",
+        "linkApp": "https://getartcraft.com/apps",
+        "descripApp": ""
+      },      
+      {
+        "nombreApp": "VectorCraft",
+        "logoApp": "VectorCraft",
         "linkApp": "https://getartcraft.com/apps",
         "descripApp": ""
       }
